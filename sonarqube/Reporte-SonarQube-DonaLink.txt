@@ -1,0 +1,43 @@
+REPORTE DE ANÁLISIS DE CALIDAD - SONARQUBE
+Proyecto: DonaLink
+Fecha del análisis: 27/09/2026
+
+Herramienta utilizada:
+SonarQube Community Build
+
+RESULTADOS DEL ANÁLISIS
+
+Quality Gate: PASSED
+
+Security:
+- Calificación: C
+- Issues abiertos: 2
+
+Reliability:
+- Calificación: A
+- Issues abiertos: 0
+
+Maintainability:
+- Calificación: A
+- Issues abiertos: 17
+
+Coverage:
+- 50.0%
+- 16 líneas consideradas por SonarQube
+
+Duplicación:
+- 14.4%
+
+Security Hotspots:
+- 0
+
+CONCLUSIÓN
+
+El análisis de SonarQube permitió revisar la calidad del código de DonaLink.
+El Quality Gate fue aprobado. No se detectaron issues de confiabilidad, aunque
+se identificaron aspectos de seguridad y mantenibilidad que pueden corregirse
+en futuras versiones. También se detectó un 14.4% de duplicación de código.
+
+La cobertura mostrada por SonarQube fue de 50.0%. Este valor es diferente al
+reporte de pruebas unitarias de Jest, donde se obtuvo 85.18% de cobertura de
+statements, 80% de funciones y 100% de líneas.
